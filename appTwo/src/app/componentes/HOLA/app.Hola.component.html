@@ -1,0 +1,41 @@
+<div class="row justify-content-center">
+    <h1 class="h1 bg-success p-5">Hola Mensaje</h1>
+</div>
+
+<div class="row justify-content-center">
+    <table class="table table-primary table-bordered m-3">
+        <thead class="text-center">
+            <tr>
+                <th>
+                    Dispositivo
+                </th>
+                <th>
+                    Detalles
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    USB
+                </td>
+                <td>
+                    Dispositivo Universal
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HDMI
+                </td>
+                <td>
+                    Dispositivo video y audio
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div class="row justify-content-center">
+        <p>El auto seleccionado es : {{auto.marca}}</p>
+        <img [src]="auto.img" alt="">
+    </div>
+</div>
