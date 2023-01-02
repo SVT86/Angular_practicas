@@ -1,4 +1,8 @@
+![ng](https://github.com/SVT86/SVT86/blob/main/angular-icon.png)
+
 # AppTwo
+
+## Practicas en Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
 
